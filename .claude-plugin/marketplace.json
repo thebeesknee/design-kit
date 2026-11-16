@@ -1,0 +1,43 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "design-kit",
+  "description": "Web and Shopify design skills: my own design references plus impeccable and taste-skill.",
+  "owner": {
+    "name": "Zack"
+  },
+  "plugins": [
+    {
+      "name": "design-references",
+      "description": "Library of DESIGN.md style references (tokens, type, spacing, components) for websites and Shopify themes.",
+      "version": "0.1.0",
+      "source": "./plugins/design-references",
+      "category": "design"
+    },
+    {
+      "name": "impeccable",
+      "description": "Design, critique, audit, polish and animate frontends. Third-party, by Paul Bakaus.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pbakaus/impeccable.git",
+        "path": "plugin",
+        "ref": "main"
+      },
+      "homepage": "https://impeccable.style",
+      "category": "design"
+    },
+    {
+      "name": "taste-skill",
+      "description": "Professional company websites checked in a real browser. Third-party, by leonxlnx.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Leonxlnx/taste-skill.git",
+        "ref": "main"
+      },
+      "skills": ["./skills/taste-skill"],
+      "strict": false,
+      "homepage": "https://github.com/Leonxlnx/taste-skill",
+      "license": "MIT",
+      "category": "design"
+    }
+  ]
+}

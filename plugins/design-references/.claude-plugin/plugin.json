@@ -1,0 +1,9 @@
+{
+  "name": "design-references",
+  "description": "Library of DESIGN.md style references (tokens, type, spacing, components) for websites and Shopify themes.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Zack"
+  },
+  "skills": "./skills/"
+}
